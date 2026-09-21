@@ -6,75 +6,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfólio</title>
     <style>
-        * {
+        body {
             padding: 0;
             margin: 0;
             background-color: black;
         }
 
-        .header {
-            background-color: grey;
+        .contact ul {
+            display: flex;
+            justify-content: space-around;
+            list-style-type: none;
         }
 
-        .foot {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            width: 100vh;
-            color: white;
+        .contact a {
+            text-decoration: none;
+            color: whitesmoke;
+        }
+
+        .contact a:hover {
+            color: orangered;
         }
 
         .intro {
             font-family: cursive;
-            background-color: rgb(58, 155, 172);
-            color: mediumorchid;
+            color: rgb(36, 127, 144);
+            width: 100vh;
+        }
 
+        .intro h2 {
+            display: flex;
+            justify-content: center;
+        }
+
+        .about_section {
+            background-color: rgb(136, 119, 119);
+            color: rgb(136, 166, 176);
+            font-family: Arial, Helvetica, sans-serif;
+            display: contents;
         }
     </style>
 </head>
 
 <body>
-    <div>
+    <div class="intro">
         <header>
             <hgroup>
-                <nav>
-                    <ul>
-                        <li><a href="#">Experience</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">Skills</a></li>
-                        <li><a href="#">Hobbies</a></li>
-                        <li><a href="#">Certifications</a></li>
-                        <li><a href="#">Contact Me</a></li>
-                    </ul>
-                </nav>
-                <h2 style="color: rgb(36, 127, 144); display: flex; width: 100vh; justify-content: center;"><em>Hey!
-                        It's so nice to see
-                        you here!</em></h2>
+                <h2><em>Hey! It's so nice to see you here!</em></h2>
             </hgroup>
         </header>
     </div>
 
-    <article class="intro">
-        <section>
-            <h4>
-                <p> I am working as a Firmware Engineer with 3+ years of experience at NXP Semiconductors specializing
-                    in the entire IC
-                    life cycle, from pre-silicon simulation to post-silicon validation. Have good experience in
-                    developing low-level firmware (Boot ROM, Flash) for RISC-V architectures. Proven track record in
-                    building Python-based frameworks for testing, driving CI/CD pipelines via Jenkins, and debugging
-                    complex embedded systems using JTAG and logic analyzers.</p>
-            </h4>
-        </section>
-    </article>
-
-    <div class="foot">
-        <a href="mailto:debasisbehera1279@gmail.com">Mail</a>
-        <a href="https://github.com/deb1279">Github</a>
+    <div class="about_section">
+        <article>
+            <section>
+                <h4>
+                    <p> I am working as a Firmware Engineer with 3+ years of experience at NXP Semiconductors
+                        specializing
+                        in the entire IC
+                        life cycle, from pre-silicon simulation to post-silicon validation. Have good experience in
+                        developing low-level firmware (Boot ROM, Flash) for RISC-V architectures. Proven track record in
+                        building Python-based frameworks for testing, driving CI/CD pipelines via Jenkins, and debugging
+                        complex embedded systems using JTAG and logic analyzers.</p>
+                </h4>
+            </section>
+        </article>
+    </div>
+    <div class="contact">
+        <ul>
+            <li><a href="mailto:debasisbehera1279@gmail.com">Mail</a></li>
+            <li><a href="https://github.com/deb1279">Github</a></li>
+        </ul>
     </div>
     <div>
-        <footer class=" foot">
-            <p>&copy; deb1279.github.io</p>
+        <footer style="display: flex; justify-content: center; color: white;">
+            <p>&copy; <i>deb1279.github.io</i></p>
         </footer>
     </div>
 </body>
