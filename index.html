@@ -1,497 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
-      rel="stylesheet"
-    />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Dark Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-    <title>portfólio</title>
-<!--
-Reflux Template
-https://templatemo.com/tm-531-reflux
--->
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Header & Navigation -->
+    <header class="navbar">
+        <div class="logo"><a href="#">YourLogo</a></div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css" />
-    <link rel="stylesheet" href="assets/css/templatemo-style.css" />
-    <link rel="stylesheet" href="assets/css/owl.css" />
-    <link rel="stylesheet" href="assets/css/lightbox.css" />
-  </head>
-
-  <body>
-    <div id="page-wraper">
-      <!-- Sidebar Menu -->
-      <div class="responsive-nav">
-        <i class="fa fa-bars" id="menu-toggle"></i>
-        <div id="menu" class="menu">
-          <i class="fa fa-times" id="menu-close"></i>
-          <div class="container">
-            <div class="image">
-              <a href="#"><img src="assets/images/author-image.jpg" alt="" /></a>
-            </div>
-            <div class="author-content">
-              <h4>Debasis Behera</h4>
-              <span>Firmware Engineer at NXP Semiconductors, Bhubaneswar, Odisha, India</span>
-            </div>
-            <nav class="main-nav" role="navigation">
-              <ul class="main-menu">
-                <li><a href="#section1">About Me</a></li>
-                <li><a href="#section2">Professional Experience</a></li>
-                <li><a href="#section3">Personal Projects</a></li>
-                <li><a href="#section4">Contact Me</a></li>
-              </ul>
-            </nav>
-            <div class="social-network">
-              <ul class="soial-icons">
-                <li>
-                  <a href="https://www.linkedin.com/in/debasis-behera-196b3442b"><i class="fa fa-linkedin"></i></a>
-                </li>
-                <li>
-                    <a href="https://github.com/deb1279"><i class="fa fa-github"></i></a>
-                </li>
-              </ul>
-            </div>
-            <div class="copyright-text">
-              <p>&copy; deb1279 </p>
-            </div>
-          </div>
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Your Name</span></h1>
+            <p>A passionate Web Developer & Designer creating clean, interactive digital experiences.</p>
+            <a href="#projects" class="btn">View My Work</a>
         </div>
-      </div>
+    </section>
 
-      <section class="section about-me" data-section="section1">
-        <div class="container">
-          <div class="section-heading">
-            <h1 style="color:rgb(241, 125, 125);"><em>Hi! It's so nice to see you here!</em></h1>
-            <p style="color: rgb(82, 64, 40);"><i>Welcome! Pull up a chair and stay a while. <br>
-                Take a look around, check out my work profile, and make yourself to know about me.</i></p>
-            <br>
-            <h2>About Me</h2>
-            <div class="line-dec"></div>
-            <span>I am working as a Firmware Engineer with 3+ years of experience specialising in the entire IC life cycle, from pre-silicon simulation to post-silicon validation. Experience of Validating and Developing low-level firmware for RISC-V architectures and wireless charging systems. Proven track record in building Python-based automation frameworks, driving CI/CD pipelines via Jenkins, and debugging complex embedded systems using JTAG and logic analyser.</span>
-          </div>
-          <div class="left-image-post">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="left-image">
-                  <img src="assets/images/left-image.jpg" alt="" />
+    <!-- Experience Section (Timeline Design) -->
+    <section id="experience" class="experience-section">
+        <h2>Work Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2024 - Present</div>
+                <div class="timeline-content">
+                    <h3>Senior Frontend Developer</h3>
+                    <h4>Tech Corp Inc.</h4>
+                    <p>Led a team of developers to rebuild the core SaaS platform, improving overall page load times by 40% using modern web practices.</p>
                 </div>
-              </div>
-              <div class="col-md-6">
-                <div class="right-text">
-                  <h4><em>Engineer, By Mistake</em></h4>
-                  <p>
-                    After completing my Bachelor’s in Electronics & Communication and Master’s in Electronics & Instrumentation, I landed at NXP Semiconductors as a Firmware Engineer. Nowadays, I am validating firmware for RISC-V-based ICs that power small devices like earbuds, digital pencils, and hopefully my own brain for better ideas. My daily routine revolves around C/C++, Python, scripting, and continuous corporate learning.
-                  </p>
-                  <!-- <div class="white-button">
-                    <a href="#">Read More</a>
-                  </div> -->
-                </div>
-              </div>
             </div>
-          </div>
-          <div class="right-image-post">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="left-text">
-                  <h4><em>Habibi's Hobby</em></h4>
-                  <p> <i>
-                    Whether lost in guitar strings or playing piano keys,<br>
-                    Music is where my heart feels most at ease. <br>
-                    When the room goes quiet and new worlds start to call, <br>
-                    I immerse myself in books and savor them all. <br>
-                    As soon as the court is ready, I grab my racket to play, <br>
-                    Clearing my head to wash the heavy day away. <br>
-                    From rhythms and reading to rallies on the court, <br>
-                    These simple passions make my days blossom and short. <br>
-                  </i></p>
-                  <!-- <div class="white-button">
-                    <a href="#">Read More</a>
-                  </div> -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2022 - 2024</div>
+                <div class="timeline-content">
+                    <h3>Web Developer</h3>
+                    <h4>Digital Pulse Agency</h4>
+                    <p>Developed and maintained responsive e-commerce web applications, collaborating closely with UI/UX design teams.</p>
                 </div>
-              </div>
-              <div class="col-md-6">
-                <div class="right-image">
-                  <img src="assets/images/right-image.jpg" alt="" />
-                </div>
-              </div>
             </div>
-          </div>
         </div>
-      </section>
+    </section>
 
-      <section class="section my-services" data-section="section2">
-        <div class="container">
-          <div class="section-heading">
-            <h2>What I’m good at?</h2>
-            <div class="line-dec"></div>
-            <span
-              >Will Update Soon...</span
-            >
-          </div>
-          <!-- <div class="row">
-            <div class="col-md-6">
-              <div class="service-item">
-                <div class="first-service-icon service-icon"></div>
-                <h4>HTML5 &amp; CSS3</h4>
-                <p>
-                  Phasellus non convallis dolor. Integer tempor hendrerit arcu
-                  at bibendum. Sed ac ante non metus vehicula congue quis eget
-                  eros.
-                </p>
-              </div>
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <h2>Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Project Title 1</h3>
+                <p>A brief description explaining the problem this project solves and the stack used.</p>
+                <a href="#" class="project-link">View Live &rarr;</a>
             </div>
-            <div class="col-md-6">
-              <div class="service-item">
-                <div class="second-service-icon service-icon"></div>
-                <h4>Creative Ideas</h4>
-                <p>
-                  Proin lacus massa, eleifend sed fermentum in, dignissim vel
-                  metus. Nunc accumsan leo nec felis porttitor, ultricies
-                  faucibus purus mollis.
-                </p>
-              </div>
+            <div class="project-card">
+                <h3>Project Title 2</h3>
+                <p>A brief description explaining the problem this project solves and the stack used.</p>
+                <a href="#" class="project-link">View Live &rarr;</a>
             </div>
-            <div class="col-md-6">
-              <div class="service-item">
-                <div class="third-service-icon service-icon"></div>
-                <h4>Easy Customize</h4>
-                <p>
-                  Integer suscipit condimentum aliquet. Nam quis risus metus.
-                  Nullam faucibus quam eget arcu pretium tincidunt. Nam libero
-                  dui.
-                </p>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="service-item">
-                <div class="fourth-service-icon service-icon"></div>
-                <h4>Admin Dashboard</h4>
-                <p>
-                  Vivamus et dui a massa venenatis fringilla. Proin lacus massa,
-                  eleifend sed fermentum in, dignissim vel metus. Nunc accumsan
-                  leo nec felis porttitor.
-                </p>
-              </div>
-            </div>
-          </div> -->
         </div>
-      </section>
+    </section>
 
-      <section class="section my-work" data-section="section3">
-        <div class="container">
-          <div class="section-heading">
-            <h2>My Work</h2>
-            <div class="line-dec"></div>
-            <span><i> "A collection of ideas turned into reality. Dive into the work that drives me." </i></span
-            >
-            <p>Will Update soon...</p>
-          </div>
-          <!-- <div class="row">
-            <div class="isotope-wrapper">
-              <form class="isotope-toolbar">
-                <label
-                  ><input
-                    type="radio"
-                    data-type="*"
-                    checked=""
-                    name="isotope-filter"
-                  />
-                  <span>all</span></label
-                >
-                <label
-                  ><input
-                    type="radio"
-                    data-type="people"
-                    name="isotope-filter"
-                  />
-                  <span>people</span></label
-                >
-                <label
-                  ><input
-                    type="radio"
-                    data-type="nature"
-                    name="isotope-filter"
-                  />
-                  <span>nature</span></label
-                >
-                <label
-                  ><input
-                    type="radio"
-                    data-type="animals"
-                    name="isotope-filter"
-                  />
-                  <span>animals</span></label
-                >
-              </form>
-              <div class="isotope-box">
-                <div class="isotope-item" data-type="nature">
-                  <figure class="snip1321">
-                    <img
-                      src="assets/images/portfolio-01.jpg"
-                      alt="sq-sample26"
-                    />
-                    <figcaption>
-                      <a
-                        href="assets/images/portfolio-01.jpg"
-                        data-lightbox="image-1"
-                        data-title="Caption"
-                        ><i class="fa fa-search"></i
-                      ></a>
-                      <h4>First Title</h4>
-                      <span>free to use our template</span>
-                    </figcaption>
-                  </figure>
-                </div>
-
-                <div class="isotope-item" data-type="people">
-                  <figure class="snip1321">
-                    <img
-                      src="assets/images/portfolio-02.jpg"
-                      alt="sq-sample26"
-                    />
-                    <figcaption>
-                      <a
-                        href="assets/images/portfolio-02.jpg"
-                        data-lightbox="image-1"
-                        data-title="Caption"
-                        ><i class="fa fa-search"></i
-                      ></a>
-                      <h4>Second Title</h4>
-                      <span>please tell your friends</span>
-                    </figcaption>
-                  </figure>
-                </div>
-
-                <div class="isotope-item" data-type="animals">
-                  <figure class="snip1321">
-                    <img
-                      src="assets/images/portfolio-03.jpg"
-                      alt="sq-sample26"
-                    />
-                    <figcaption>
-                      <a
-                        href="assets/images/portfolio-03.jpg"
-                        data-lightbox="image-1"
-                        data-title="Caption"
-                        ><i class="fa fa-search"></i
-                      ></a>
-                      <h4>Item Third</h4>
-                      <span>customize anything</span>
-                    </figcaption>
-                  </figure>
-                </div>
-
-                <div class="isotope-item" data-type="people">
-                  <figure class="snip1321">
-                    <img
-                      src="assets/images/portfolio-04.jpg"
-                      alt="sq-sample26"
-                    />
-                    <figcaption>
-                      <a
-                        href="assets/images/portfolio-04.jpg"
-                        data-lightbox="image-1"
-                        data-title="Caption"
-                        ><i class="fa fa-search"></i
-                      ></a>
-                      <h4>Item Fourth</h4>
-                      <span>Re-distribution not allowed</span>
-                    </figcaption>
-                  </figure>
-                </div>
-
-                <div class="isotope-item" data-type="nature">
-                  <figure class="snip1321">
-                    <img
-                      src="assets/images/portfolio-05.jpg"
-                      alt="sq-sample26"
-                    />
-                    <figcaption>
-                      <a
-                        href="assets/images/portfolio-05.jpg"
-                        data-lightbox="image-1"
-                        data-title="Caption"
-                        ><i class="fa fa-search"></i
-                      ></a>
-                      <h4>Fifth Awesome</h4>
-                      <span>Ut sollicitudin risus</span>
-                    </figcaption>
-                  </figure>
-                </div>
-
-                <div class="isotope-item" data-type="animals">
-                  <figure class="snip1321">
-                    <img
-                      src="assets/images/portfolio-06.jpg"
-                      alt="sq-sample26"
-                    />
-                    <figcaption>
-                      <a
-                        href="assets/images/portfolio-06.jpg"
-                        data-lightbox="image-1"
-                        data-title="Caption"
-                        ><i class="fa fa-search"></i
-                      ></a>
-                      <h4>Awesome Sixth</h4>
-                      <span>Donec eget massa ante</span>
-                    </figcaption>
-                  </figure>
-                </div>
-              </div>
-            </div> -->
-          <!-- </div> -->
-        </div>
-      </section>
-
-      <section class="section contact-me" data-section="section4">
-        <div class="container">
-          <div class="section-heading">
-            <h2>Contact Me</h2>
-            <div class="line-dec"></div>
-            <span>
-                <i>
-                    "Have a question or just want to say hi? Drop a Quote for me I’d love to hear from you!"
-                </i>
-            </span>
-            <p>Will Update Soon...</p>
-          <!-- </div>
-          <div class="row">
-            <div class="right-content">
-              <div class="container">
-                <form id="contact" action="" method="post">
-                  <div class="row">
-                    <div class="col-md-6">
-                      <fieldset>
-                        <input
-                          name="name"
-                          type="text"
-                          class="form-control"
-                          id="name"
-                          placeholder="Your name..."
-                          required=""
-                        />
-                      </fieldset>
-                    </div>
-                    <div class="col-md-6">
-                      <fieldset>
-                        <input
-                          name="email"
-                          type="text"
-                          class="form-control"
-                          id="email"
-                          placeholder="Your email..."
-                          required=""
-                        />
-                      </fieldset>
-                    </div>
-                    <div class="col-md-12">
-                      <fieldset>
-                        <input
-                          name="subject"
-                          type="text"
-                          class="form-control"
-                          id="subject"
-                          placeholder="Subject..."
-                          required=""
-                        />
-                      </fieldset>
-                    </div>
-                    <div class="col-md-12">
-                      <fieldset>
-                        <textarea
-                          name="message"
-                          rows="6"
-                          class="form-control"
-                          id="message"
-                          placeholder="Your message..."
-                          required=""
-                        ></textarea>
-                      </fieldset>
-                    </div>
-                    <div class="col-md-12">
-                      <fieldset>
-                        <button type="submit" id="form-submit" class="button">
-                          Send Message
-                        </button>
-                      </fieldset>
-                    </div>
-                  </div>
-                </form>
-              </div>
+    <!-- Certifications Section (Badge Grid Design) -->
+    <section id="certifications" class="certs-section">
+        <h2>Certifications</h2>
+        <div class="certs-grid">
+            <div class="cert-card">
+                <div class="cert-icon">🏆</div>
+                <h3>AWS Certified Developer</h3>
+                <p>Issued by Amazon Web Services</p>
+                <span class="cert-date">Verified • 2025</span>
             </div>
-          </div> -->
+            <div class="cert-card">
+                <div class="cert-icon">📜</div>
+                <h3>Advanced React & Redux</h3>
+                <p>Issued by Meta / Coursera</p>
+                <span class="cert-date">Verified • 2024</span>
+            </div>
+            <div class="cert-card">
+                <div class="cert-icon">⚡</div>
+                <h3>UI/UX Design Specialist</h3>
+                <p>Issued by Interaction Design Foundation</p>
+                <span class="cert-date">Verified • 2024</span>
+            </div>
         </div>
-      </section>
-    </div>
+    </section>
 
-    <!-- Scripts -->
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Hobbies Section (Visual Grid Design) -->
+    <section id="hobbies" class="hobbies-section">
+        <h2>Beyond Coding</h2>
+        <p class="section-subtitle">What I love to do when I'm not staring at a screen.</p>
+        <div class="hobbies-grid">
+            <div class="hobby-card">
+                <span class="hobby-emoji">📸</span>
+                <h3>Photography</h3>
+                <p>Capturing street landscapes and urban structural geometries.</p>
+            </div>
+            <div class="hobby-card">
+                <span class="hobby-emoji">✈️</span>
+                <h3>Traveling</h3>
+                <p>Exploring hidden backpacking trails and discovering unique cultures.</p>
+            </div>
+            <div class="hobby-card">
+                <span class="hobby-emoji">☕</span>
+                <h3>Coffee Brewing</h3>
+                <p>Experimenting with alternative pour-over and manual espresso techniques.</p>
+            </div>
+        </div>
+    </section>
 
-    <script src="assets/js/isotope.min.js"></script>
-    <script src="assets/js/owl-carousel.js"></script>
-    <script src="assets/js/lightbox.js"></script>
-    <script src="assets/js/custom.js"></script>
-    <script>
-      //according to loftblog tut
-      $(".main-menu li:first").addClass("active");
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Get In Touch</h2>
+        <p>Have an exciting project or opportunity? Drop a message!</p>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
 
-      var showSection = function showSection(section, isAnimate) {
-        var direction = section.replace(/#/, ""),
-          reqSection = $(".section").filter(
-            '[data-section="' + direction + '"]'
-          ),
-          reqSectionPos = reqSection.offset().top - 0;
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Your Name. All rights reserved.</p>
+    </footer>
 
-        if (isAnimate) {
-          $("body, html").animate(
-            {
-              scrollTop: reqSectionPos
-            },
-            800
-          );
-        } else {
-          $("body, html").scrollTop(reqSectionPos);
-        }
-      };
-
-      var checkSection = function checkSection() {
-        $(".section").each(function() {
-          var $this = $(this),
-            topEdge = $this.offset().top - 80,
-            bottomEdge = topEdge + $this.height(),
-            wScroll = $(window).scrollTop();
-          if (topEdge < wScroll && bottomEdge > wScroll) {
-            var currentId = $this.data("section"),
-              reqLink = $("a").filter("[href*=\\#" + currentId + "]");
-            reqLink
-              .closest("li")
-              .addClass("active")
-              .siblings()
-              .removeClass("active");
-          }
-        });
-      };
-
-      $(".main-menu").on("click", "a", function(e) {
-        e.preventDefault();
-        showSection($(this).attr("href"), true);
-      });
-
-      $(window).scroll(function() {
-        checkSection();
-      });
-    </script>
-  </body>
+</body>
 </html>
